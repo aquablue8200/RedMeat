@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">	
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<div id="articolo">
+			<div id="corpo">
+				<h1>Consumo di carne ed incidenza tumorale</h1>
+				<p>A fine Ottobre, l'<a href="http://www.iarc.fr/">IARC</a>, l'Agenzia Internazionare di Ricerca sul Cancro, organo dell'OMS 
+				(Organizzazione Mondiale della Sanità), ha rilasciato una pubblicazione circa la cancerogenicità delle carni rosse e trattate.<br/>
+				L'articolo, frutto di numerosi studi epistemologici, dichiara, attraverso la descrizione semplificata degli esperimenti che sono
+				stati effettuati in Europa, Stati Uniti e Giappone, come vi siano delle correlazioni tra consumo di carne non bianca e insorgenza di più di 15 
+				tumori diversi, tra i quali spiccano quelli al colon-retto, stomaco, pancreas e prostata.</p>
+				<p class="emphasis">Gli esperti hanno dichiarato che il rischio di cancro al colon-retto aumenta del 17% ogni 100 g di carne rossa consumata al giorno,
+				e del 18% ogni 50 g di carne trattata, come würstel, salsicce e salami, assunta quotidianamente.</p>
+				<p>L'IARC ha creato una <a href="http://monographs.iarc.fr/ENG/Classification/latest_classif.php">classificazione</a> degli agenti cancerogeni, suddivisi in 5 gruppi. 
+				Il gruppo 1 contiene i carcinogeni certi come il fumo di tabacco, attivo e passivo, o l'amianto e, da quest'anno vi è stata inserita anche la carne trattata.<br/>
+				La carne rossa è stata inserita nel gruppo 2A, quello contenente gli agenti probabilmente carcinogeni per l'uomo, insieme a sostanze come i
+				composti organici del piombo, o l'esposizione prolungata al processo di raffinazione del petrolio. La classificazione IARC comprende anche il gruppo 2B, dove troviamo gli agenti forse cancerogeni
+				per l'uomo. Nel gruppo 3 sono inseriti i composti e le circostanze d'esposizione non classificabili in base alla loro cancerogenicità sull'uomo.
+				Infine il solo caprolattame, materia prima nella produzione del nylon, rientra nel gruppo 4, come probabilmente non cancerogeno per l'uomo.</p>
+				<div id="tabella"><table>
+				  <thead>
+					<tr>
+					  <th>Gruppo 1</th>
+					  <th>Gruppo 2A</th>
+					  <th>Gruppo 2B</th>
+					  <th>Gruppo 3</th>
+					</tr>
+				  <thead>
+									
+				  <tbody>
+					<tr>
+						<td>Fumo di tabacco</td>
+						<td>Piombo</td>
+						<td>Naftalina</td>
+						<td>Polistirolo</td>
+					</tr>
+					<tr>					
+						<td>Formaldeide</td>
+						<td>Raffinazione del petrolio</td>
+						<td>Composti del cobalto</td>
+						<td>Produzione di vernici</td>
+					</tr>
+					<tr>	
+						<td>Amianto</td>
+						<td>DDT</td>
+						<td>Nichel</td>
+						<td>Carburante per jet</td>
+					</tr>
+					<tr>	
+						<td>Plutonio</td>
+						<td>Acrilammide</td>
+						<td>Fumi di saldatura</td>
+						<td>Anestesia volatile</td>
+					</tr>
+					<tr>	
+						<td>Carne trattata</td>
+						<td>Carne rossa</td>
+						<td>Cloroformio</td>
+						<td>Saccarina</td>
+					</tr>
+				  </tbody>
+					
+				</table></div><br/>
+				<p>Dunque, mangiare carne è pericoloso come fumare una sigaretta? Come sostenuto dall'AIRC, bisogna tener presente che ogni volta che una sostanza 
+				viene inserita in una lista dell'IARC, è necessario capire quali sono i reali margini di rischio, ed entro che dosi e limiti vale la pena preoccuparsi davvero.<br/>
+				Il consumo di carne in Italia, secondo Coldiretti, è sotto la soglia di allarme. Stando ai dati FAO, in Italia, nel 2011, si consumavano
+				meno di 87 kg di carne a persona all'anno, il 26% in meno che negli Stati Uniti.</p>
+				<div id="graficoFAO"class="graph"></div>
+				<p>Sebbene con delle piccole variazioni, dal 2009 al 2011, il consumo di carne in Italia, Francia, Germania, Australia e Stati Uniti
+				è rimasto sostanzialmente lo stesso. Analizzando i dati del 2011, ad esempio, notiamo come i maggiori consumatori di carne siano gli 
+				australiani, con 121 kg a persona all'anno, e gli statunitensi con quasi 118 kg. In Italia il consumo di carne annuale è intorno gli 87 kg.
+				Ci si aspetterebbe, stando alle pubblicazioni dell'IARC, che in Australia e negli Stati Uniti vi sia un'incidenza tumorale maggiore a colon-retto,
+				pancreas, stomaco e prostata.</p>
+				<div id="sceltaTumore"><ul>
+					<li class="active menu">colonrettale</li>
+					<li class="menu">stomaco</li>
+					<li class="menu">pancreas</li>
+					<li class="menu">prostata</li>
+				</ul></div>
+				<div id="graficitumori"class="graph row">
+						<div id="graficoMORTI" class="col-xs-12 col-md-6"></div>
+						<div id="graficoINCIDENZA" class="col-xs-12 col-md-6"></div>
+				</div>
+				<p>I grafici sovrastanti indicano la percentuale di morti per ogni tipo di tumore sul numero di morti totali e l'incidenza tumorale* in ogni stato.
+				I risultati sono parzialmente inaspettati.<br/>
+				Dei quattro tumori, in completa controtendenza con le aspettative sono i dati circa il colon-retto e lo stomaco.<br/> 
+				<b>Tumore al colon-retto</b> nel 2011, il 3,26% delle morti in	Francia e il 3,22% dei decessi italiani fu causato da questo tumore, mentre in Australia e Stati Uniti, siamo sotto la soglia del 3%. L'incidenza
+				tumorale vede invece l'Australia come stato più colpito, seguito dall'Italia. Gli Stati Uniti registrano il tasso più basso di 25.<br/>
+				<b>Tumore allo stomaco</b> analizzando i dati circa questo tumore, notiamo come nella percentuale di morti e nell'incidenza,
+				il paese maggiormente afflitto sia l'Italia, seguita dalla Germania. I "carnivori" più convinti, australiani e statunitensi, 
+				registrano i tassi più bassi in entrambe le sezioni.</p>
+				<p><b>Tumore al pancreas</b> un andamento non indicativo, è riscontrabile nei dati circa il tumore al pancreas. La percentuale
+				di morti non varia sensibilmente tra paese e paese, e l'incidenza tumorale oscilla tra il 7,9 della Germania ed il 6,6
+				dell'Australia.<br/>
+				<b>Tumore alla prostata</b> nonostante i dati circa la percentuale di morti, veda l'Australia al primo posto, e gli Stati Uniti
+				all'ultimo, l'incidenza tumorale rispecchia perfettamente le aspettative che si sarebbero formate analizzando i dati FAO:
+				Australia e Stati Uniti con un tasso maggiore, Francia, Germania ed Italia a seguire.</p>
+				
+				<p>I dati a nostra disposizione, pur andando controcorrente con le pubblicazioni dell'IARC, non ci possono permettere
+				di confutare gli studi di un così autorevole organo. Senza escludere una cancerogenicità delle carni rosse e trattate, possiamo tuttavia concludere
+				che la quantità vermente nociva non sia assumibile in un contesto di vita quotidiana. Infatti, nonostante una sostanziosa
+				differenza di alimentazione fra gli "aprifila dei consumatori", gli austaliani, e noi, non è stata riscontrata una differenza di condizioni
+				di salute altrettanto marcata.</p>
+			</div>
+			<div id="note">
+					* I dati si riferiscono all'ASR, ovvero il tasso standardizzato per età. Questa standardizzazione è importante in quanto 
+						il cancro è una malattia la cui probabilità di comparsa aumenta con l'avanzare dell'età ed andando a confrontare paesi diversi,
+						la cui età media può differire, si potrebbe correre il rischio di presentare dati non indicativi circa lo stato di salute
+						della popolazione, ma influenzati dalla sua anzianità.
+				
+			<br/>
+			<div id="fonti">
+				<p>Fonti dei dati</p>
+				<ul>
+					<li><a href="http://www.thelancet.com/pdfs/journals/lanonc/PIIS1470-2045(15)00444-1.pdf">Carcinogenicity of consumption of red and processed meat</a></li>
+					<li><a href="http://monographs.iarc.fr/ENG/Classification/latest_classif.php">Classificazione agenti cancerogeni dell'IARC</a></li>
+					<li><a href="http://faostat3.fao.org/browse/FB/CL/E">FAOSTAT</a></li>
+					<li><a href="http://www.aihw.gov.au/acim-books/">Australian Institute od Health and Welfare</a></li>
+					<li><a href="http://dati.istat.it/">ISTAT</a></li>
+					<li><a href=""></a>Centers for Disease Control and Prevention</li>
+						<ul>
+							<li><a href="http://www.cdc.gov/nchs/data/nvsr/nvsr60/nvsr60_03.pdf">2009</a></li>
+							<li><a href="http://www.cdc.gov/nchs/data/nvsr/nvsr61/nvsr61_04.pdf">2010</a></li>
+							<li><a href="http://www.cdc.gov/nchs/data/nvsr/nvsr63/nvsr63_03.pdf">2011</a></li>
+						</ul>
+					<li><a href="http://de.statista.com/statistik/suche/?q=krebs">Statista</a></li>
+					<li><a href="http://www.invs.sante.fr/">InVS</a></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		
+	</body>
+<script type="text/javascript" src="./libraries/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="./libraries/Highcharts-4.1.5/js/highcharts.js"></script>
+<script type="text/javascript" src="./libraries/Highcharts-4.1.5/js/modules/exporting.js"></script>
+<script type="text/javascript" src="./javascript/main.js"></script>
+<script type="text/javascript" src="./javascript/charts.js"></script>
+
+
+</html>
